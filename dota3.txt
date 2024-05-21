@@ -1,0 +1,180 @@
+<html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Добавьте серый цвет фона с некоторым дополнением */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: black;
+}
+
+/* Заголовок/блог таблетка */
+.header {
+  padding: 30px;
+  font-size: 195px;
+  text-align: center;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymuUnM2HZWrsdPEHDpNcPDZouhK89dl44kA&usqp=CAU);
+}
+
+/* Создайте два неравных столбца, которые плавают рядом друг с другом */
+/* Левая колонка */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  
+}
+
+
+/* Правая колонка */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Поддельное изображение */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Добавление эффекта карты для статей */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Очистить поплавки после столбцов */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Подвал */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #FFFFFF;
+  margin-top: 20px;
+}
+
+/* Адаптивный макет - когда экран имеет ширину менее 800 пикселей, сделайте два столбца стеком друг на друга, а не рядом друг с другом */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+<h1><font color="white">Dota 2 Fan page</font></h1>
+
+<div class="header">
+
+  <h5> </h5>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Победители The International 12</h2>
+      <h5>TEAM SPIRIT - новые победитеоли TI12!</h5>
+      <div><img src="https://i.playground.ru/p/ZzQ1JhCzjrHeMPqqGh-S6Q.jpeg" alt="" height="200" width="500">
+  </div> 
+      <p>Dota-ростер Team Spirit завоевал второй в истории организации титул чемпионов The International.</p>
+    </div>
+    <div class="card">
+      <h2>Отмена DPC сезонов</h2>
+      <h5>Valve объявит новый формат в следующем году Valve отменила DPC-систему. Valve заявила, что DPC-сезон в 2023 году станет последним.</h5>
+    
+      <div><img src="https://cdn.escharts.com/uploads/public/62e/a85/e52/62ea85e521c5a130835921.jpg" alt="" height="200" width="500"> </div>
+      <p>сцена получит новое дыхание, нас ждет много интересного, дота жива и будет жить.
+    DPC-сезон в 2023 году станет последним.</p>
+    </div>
+	 <
+	
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Новые организации</h2>
+      <div><img src="https://liquipedia.net/commons/images/thumb/1/18/Aurora_Gaming_2023_allmode.png/600px-Aurora_Gaming_2023_allmode.png" alt="" width="100" height="100"><img src="https://liquipedia.net/commons/images/thumb/e/e9/Team_Falcons_2022_full_lightmode.png/600px-Team_Falcons_2022_full_lightmode.png" alt="" width="170" height="100"><img src="https://game-tournaments.com/media/logo/_90/t88005.webp" alt="" width="100" height="100"></div>
+      <p>Aurora, Team Falcons, Winter Bear и другие.</p>
+    </div>
+    <div class="card">
+      <h3>Ближайшие турниры</h3>
+      <div><b>BB Dacha<br><img src="https://media.cyberscore.live/static/content/2024/1/c80abfc0-3a37-4243-abd3-8c7f30a59f19.png" alt="" width="250" height="80"></b></div><b>
+      <div><b>ESL One Birmingham 2024<img src="https://www.esl-one.com/birmingham/wp-content/uploads/sites/6/2023/11/ESLOne-Birmingham-keyvisual-1024-768x638.png" alt="" width="250" height="120"></b></div><b>
+      <div><b>Dreamleague season 22<img src="https://liquipedia.net/commons/images/thumb/4/49/DreamLeague_allmode.png/312px-DreamLeague_allmode.png" alt="" width="250" height="120"></b></div><b>
+    </b></b></b></div><b><b><b>
+    <div class="card">
+      <h3><a href ="legends.html">Легенды доты</a></h3>
+      <p>Кто завоевал наибольшее уважение и популярность?</p>
+      <h1>1.Йохан n0tail Сундштайн.</h1><img src=https://svirtus.cdnvideo.ru/xC6XFy5S3Q0oV-fiCMF5fyHW_j0=/0x0:800x800/800x0/filters:quality(100)/https://hb.bizmrg.com/cybersportru-media/70/70a12ae8cf1fbf0915b33ddf48615dfc.png?m=d8250ef50fc3edd092faaa15271b69a7  width="300" height="200">
+	  <p>Датский профессиональный киберспортсмен, игрок в Dota 2, двукратный чемпион The International (2018 и 2019) и победитель 4 престижных "The Major" турниров. Является самы богатам киберспортсменом в мире</p>
+      <h1>2.Сумаил Suma1L Хассан.</h1><img src=https://virtus-img.cdnvideo.ru/images/og-jpg/plain/81/81f9bc04f80b0857f9a258996131589c.jpg  width="300" height="200">
+	  <p>Самый молодой чемпион The International в истории — выиграл турнир в 2015 году в возрасте 16 лет.</p>
+      <h1>3. Данил Dendi Ишутин.</h1><img src=https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666389038_35-mykaleidoscope-ru-p-dendi-genshin-krasivo-39.png  width="300" height="200">
+	  <p>Отрицать тот факт, что Данил Ишутин — легендарен — не станет никто. Его первый The International вошел в историю, как турнир, на котором победа досталась NAVI. Это был первый самый крупный турнир в истории киберспорта с таким призовым фондом.</p>
+
+</p>
+    </div>
+  </b>
+</b>
+</b>
+</div>
+<b>
+  <b>
+    <b>
+</b>
+</b>
+</b>
+</div>
+<b>
+  <b>
+    <b>
+
+<div class="footer">
+  <h2><font color="black">Мнения медийных личностей о 2 победе TEAM SPIRIT на TI</h2></font>
+  <a href="/authors/301/" class="PostAuthor_postAuthorAvatar__Wv8UD">
+    <img src=https://virtus-img.cdnvideo.ru/images/quote-author/plain/62/62a4580fa438e5af9c222642f846c517.png width="100" height="100" decoding="async"></a>
+<div class="PostAuthor_postAuthor__V1zZo"> 
+  <a href="/authors/301/" class="PostAuthor_postAuthorAvatar__Wv8UD"></a>
+  <div class="PostAuthor_postAuthorText__IEP_6">
+    <div class="PostAuthor_postAuthorName__XaQlv">
+      <h2><font color="black">  Йохан "n0tail" Сундштайн</h2></font>
+    </div>
+      <p align="left"><font color="black">Впечатляюще! Yatoro и Collapse показали самый высокий индивидуальный уровень игры за последние пару лет. Лучшее, что я видел.
+Поздравляю Team Spirit 🙇‍♂️</p>
+    </div>
+    <h2 class="" id="nav-1"><font color="black">Реакция игроков Team Spirit на свою победу</h2>
+    <img src=https://cybersport.metaratings.ru/_images/insecure/w-680:h-512/bG9jYWw6Ly8vaW1hZ2VzLzc1LzQ5Lzc1NDkyM2U3ZmFlMjlmNjVhNWVkN2UwNThhNDcwNDJlLmpwZw==.webp  width="600" height="300">
+    <p align="left"><font color="black">Первым победу Team Spirit на The International 2023 прокомментировал мидер команды Денис Larl Сигитов:"Чувствуется облегчение после стольких лет упорства, после стольких неудач. Мы смогли начать играть хорошо. Это приятно, пару дней я буду спокойным, а потом снова начнётся обычная жизнь. Да и драфтили мы лучше."</p></font>
+	<p align="left"><font color="black">Yatoro: "победа! Вторая тарелка ez"</p></font>
+	<p align="left"><font color="black">Miposhka: "Принести всё в жертву ради того, чтобы только играть в одну игру."</p></font></font>
+	<p align="left"><font color="black">Mira: "Мы были рады, но почему-то получили мало эмоций. Это была лёгкая победа без борьбы."</p></font>
+	<p align="left"><font color="black">Collapse: "Ты пытаешься найти в себе эмоции, выиграл второй Инт все же, но, если честно, эмоций было гораздо меньше, чем когда я выиграл первый Инт."</p></font>
+    <blockquote class="Quote_blockquote__37WEm">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 14" class="Quote_icon__PgBxW" width="40" height="40">
+        <path d="m12 0 1.099 14H16.9L18 0zM0 0l1.099 14H4.9L6 0z">
+          
+        </path>
+      </svg>
+      <p></p><p class="Quote_author__0xSpP"></p></blockquote>
+  </div>
+</div>
+  </div>
+
+  
+</b>
+</b>
+</b>
+</body>
+</html>

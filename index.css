@@ -1,0 +1,58 @@
+h1 {
+	margin-left: 600px;
+}
+.left {
+	border: 3px solid black;
+	padding-left: 15px;
+	margin-right: 1400px;
+	position: absolute;
+	margin-top: 50px;
+	padding-right: 10px;
+}
+.right {
+	border: 3px solid black;
+	padding-left: 15px;
+	margin-left: 1400px;
+	float: right;
+	position: absolute;
+	margin-top: 50px;
+	padding-right: 10px;
+}
+.left1 {
+	border: 3px solid black;
+	padding-left: 15px;
+	margin-right: 1400px;
+	position: absolute;
+	margin-top: 800px;
+	padding-right: 10px;
+	
+}
+.right1 {
+	border: 3px solid black;
+	padding-left: 15px;
+	margin-left: 1400px;
+	position: absolute;
+	margin-top: 800px;
+	padding-right: 10px;
+}
+.left2 {
+	border: 3px solid black;
+	padding-left: 15px;
+	margin-right: 1400px;
+	position: absolute;
+	margin-top: 1550px;
+	padding-right: 10px;	
+}
+.right2 {
+	border: 3px solid black;
+	padding-left: 15px;
+	margin-left: 1400px;
+	position: absolute;
+	margin-top: 1550px;
+	padding-right: 10px;	
+}
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8fJH2qg2Y1DKEx_qxLtWNx-a2yYayUYcvOg&s")
+  background-repeat: one-repeat;
+  
+  }
